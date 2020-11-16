@@ -1,113 +1,417 @@
 <!DOCTYPE html>
-<html>
+<html id="home">
 	<head>
-		<title>Guitar Studio</title>
+		<title>Elite Studio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0 ,user-scalable=no">
-		<link rel="shortcut Icon" type="images/x.Icon" href="Assets/images/favicon.png">
-		<link href=link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+		<link rel="shortcut Icon" type="images/x.Icon" href="Assets/images/favicon1.png">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     	crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="Assets/bootstrap-4.4.1/dist/css/bootstrap.min.css">
+    	<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+   		<link rel="stylesheet" type="text/css" href="Assets/bootstrap-4.4.1/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="Assets/css/sytle.css">
 
-		<script type="text/javascript" src="Assets/js/jQuery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="Assets/js/popper.min.js"></script>
+		<script type="text/javascript" src="Assets/js/jQuery-3.5.1.min.js"></script>
 		<script type="text/javascript" src="Assets/bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="Assets/js/script.js"></script>
 
 	</head>
 
 	<body>
-		<nav class="navbar nav-kotak navbar-expand-sm bg-dark navbar-dark">
-			<div class="container-fluid">
-			<a href="#" class="navbar-brand"><img src="Assets/images/logo.png" width="60" height="60"> GUITAR STUDIO</a>
+		<!--Logo section-->
+	<section>
+		<div class="container">
+			<div class="media">
+				<img src="Assets/images/logo.png" class="align-self-start mr-3" width="100">
+				  <div class="media-body">
+				    <h1 class="mt-0"><b>Elite Guitar Course</b></h1>
+				    <p class="warna">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+		  		</div>
+		  	</div>
+		 </div> 	
+	</section>
 
-					<button class ="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+	<!--Navbar section-->
+	<section class="navbar">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
 
-						<div class="collapse navbar-collapse" id="navbarResponsive">
-									<ul class="navbar-nav ml-auto">
-										<li class="nav-item active">
-											<a class="nav-link" href="index.html">Home</a>
-										</li>
-										<li class ="nav-item">
-											<a class="nav-link" href="about.html">About us</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="contact.html">Contact us</a>
-										</li>
-									</ul>
-						</div>
-			</div>			
-		</nav>
-
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				  <ol class="carousel-indicators">
-				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				  </ol>
-						  <div class="carousel-inner">
-							    <div class="carousel-item active">
-							      <img src="Assets/images/slide1.png" class="d-block w-100" >	
-								</div>
-								 <div class="carousel-item">
-							      <img src="Assets/images/slide2.png"class="d-block w-100">
-							   	</div>
-							   	<div class="carousel-item">
-							      <img src="Assets/images/slide3.png" class="d-block w-100">
-							   </div>
-						  </div>
-
-						 
-
-						    
-						  
-				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
-				</div>
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav">
+					      	<li class="nav-item">
+								<a class="nav-link active" href="#home"><b>Home</b></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about"><b>About Us</b></a>
+							</li>
+							<li class ="nav-item">
+								<a class="nav-link" href="#portfolio"><b>Portfolio</b></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact"><b>Contact Us</b></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#download"><b>Download</b></a>
+							</li>
+					      	
+					    </ul>
+					    
+					   
+					  </div>
+			</nav>
+		</div>
+	</section>
 	
-			
-	
-		<br>
-
-		<div class="container-fluid padding"> 
-			<div class="row welcome text-center">
-				<div class="col-12">
-					<h1 class="display2">JOIN US</h1>
+	<!--carousel section-->
+	<section>
+		<div class="container">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active" data-interval="8000">
+			      <img src="Assets/images/slide1.png" class="d-block w-100" >	
 				</div>
-				<hr>
-				<div class="col-12">
-					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis quam faucibus, ullamcorper neque sit amet, sollicitudin ex. Aenean viverra elit condimentum rutrum iaculis. Nulla a pharetra lorem. Integer viverra lectus lacus, eu volutpat sapien imperdiet non. Aliquam luctus nisi vitae convallis egestas. Etiam ut ornare lacus. Phasellus et lacus ex.
-					 </p>
+				 <div class="carousel-item">
+			      <img src="Assets/images/slide2.png"class="d-block w-100">
+			   	</div>
+			   	<div class="carousel-item">
+			      <img src="Assets/images/slide3a.png" class="d-block w-100">
+			   </div>
+				</div> 
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+		</div>
+	</section>
+
+	<!--About section-->
+	<section class="about mt-5 mb-3" id="about">
+		<div class="container">
+		 	<div class="row">
+		 		<div class="col-md-12">
+		 			<h2 class="text-center display-4">About Us</h2>
+		 			<hr/>
+		 		</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card border-0" >
+					  <div class="card-body">
+					    <h3 class="card-title"><b>Our Course</b></h3>
+					       <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+					    </div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card mb-3 border-0" >
+					  <div class="row no-gutters">
+					    <div class="col-md-4 mt-5 ">
+					      <img src="Assets/images/founder.jpeg" class="card-img mt-4 ">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body">
+					        <h3 class="card-title"><b>Founder's Note</b></h3>
+					        <p class="card-text"><em>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letter.Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</em></p>
+					        
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>
 			</div>
+
+			
 		</div>
+	</section>	
+		
+	<!--portfolio section-->		
+	<section class="portfolio mt-5" id="portfolio">
+		<div class="container mt-5">
+			<h1 class= " display-4 text-center">Portfolio</h1>
+			<hr/>
+				<div class="row">
+						<div class="col-md-3 mb-2">
+						<div class="card border-0">
+						  <img src="Assets/images/card1.png" class="card-img-top" alt="images">
+							  <div class="card-body">
+							    <h5 class="card-title">Accoustic Guitar</h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#portfolio1">Learn More</button>
+							 </div>
+						</div>
+					</div>
 
-		<br>
+					<div class="col-md-3 mb-2">
+						<div class="card border-0">
+						  <img src="Assets/images/card2.png" class="card-img-top" alt="images">
+							  <div class="card-body">
+							    <h5 class="card-title">Electric Guitar</h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#portfolio2">Learn More</button>
+							 </div>
+						</div>
+					</div>
 
-		<div class="container-fluid padding"> 
-		      	<div class="row text-center padding">
-		      	  <div class= "col-12">
-		      	  	<h1>CONNECT US</h1>
-		      	  </div>
-				  <div class=" col-12 sosial padding">
-				      <a href="#"><i class="fab fa-facebook "></i></a>
-				      <a href="#"><i class="fab fa-instagram "></i></a>
-				      <a href="#"><i class="fab fa-twitter "></i></a>
-				      <a href="#"><i class="fab fa-youtube "></i></a>
-				  	
-		 		</div>
-		 </div>
-		<footer class="text-center">
+					<div class="col-md-3 mb-2">
+						<div class="card border-0">
+						  <img src="Assets/images/card3.png" class="card-img-top" alt="images">
+							  <div class="card-body">
+							    <h5 class="card-title">Electric Bass</h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#portfolio3">Learn More</button>
+							 </div>
+						</div>
+					</div>
+
+					<div class="col-md-3 mb-2">
+						<div class="card border-0">
+						  <img src="Assets/images/card4.png" class="card-img-top" alt="images">
+							  <div class="card-body">
+							    <h5 class="card-title">Classic Guitar</h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#portfolio4">Learn More</button>
+							 </div>
+						</div>
+					</div>
+
+				</div>			
+		</div>
+	</section>
+
+	<!--ebook section-->
+	<div class="jumbotron jumbotron-fluid" id="download">
+		<div class="container">
+		  	<div class="row">
+		  		<div class="col-md-2">
+		  		<img src="Assets/images/book.jpg" class="img-thumbnail position">
+		  		</div>
+		  		<div class="col-md-10">
+		  			<h2>Download e-Book Practice For Beginners</h2>
+			    	<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			    	<button type="button" class="btn btn-primary">Download</button>
+		  		</div>
+		  	</div>
+			
+			<div class="row mt-5">
+		  		<div class="col-md-2">
+		  		<img src="Assets/images/book1.png" class="img-thumbnail">
+		  		</div>
+		  		<div class="col-md-10">
+		  			<h2>Download e-Book Practice For Beginners</h2>
+			    	<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			    	<button type="button" class="btn btn-primary">Download</button>
+		  		</div>
+		  	</div>    
+		</div>
+	</div>
+
+	<!--Contact section-->
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1 class="display-4 text-center">Contact Us</h1>
+					<hr/>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-md-4">
+					<div class="card">
+					  <div class="card-header"><h3>Location</h3></div>
+						  <ul class="list-group list-group-flush">
+						    <li class="list-group-item">Jln. Teluk Bayur No 314,Pasir Putih, Pangkalpinang. Bangka-Belitung </li>
+						    <li class="list-group-item">083175336672</li>
+						    <li class="list-group-item">elitesavier79@gmail.com</li>
+						  </ul>
+					</div>
+
+					<div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.081006013307!2d106.12053211416176!3d-2.1225026377071363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e22c19027744c91%3A0x84d7b23c56f13575!2sJl.%20Teluk%20Bayur%20No.314%2C%20Pasir%20Putih%2C%20Bukit%20Intan%2C%20Kota%20Pangkal%20Pinang%2C%20Kepulauan%20Bangka%20Belitung%2033684!5e0!3m2!1sen!2sid!4v1602916183644!5m2!1sen!2sid" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<form>
+						  <div class="form-group">
+						    <label for="name">Name</label>
+						    <input type="text" class="form-control" id="nama">
+						  </div>
+						  <div class="form-group">
+						    <label for="email">Email</label>
+						    <input type="text" class="form-control" id="email">
+						  </div>
+						  <div class="form-group">
+						    <label for="masage">Masage</label>
+						     <textarea name="masage" id="masage" class="form-control" rows="5"></textarea>
+						  </div>
+						  <button type="button" class="btn btn-primary">Submit</button>
+					</form>
+
+					<div class="row follow mt-2 ml-1">
+						 <h5><b>Follow Us</b></h5> 
+						<div class=" col-12 sosial">
+					      <a href="https://www.facebook.com/"><i class="fab fa-facebook "></i></a>
+					      <a href="https://www.instagram.com/"><i class="fab fa-instagram "></i></a>
+					      <a href="https://twitter.com/"><i class="fab fa-twitter "></i></a>
+					      <a href="https://www.youtube.com/"><i class="fab fa-youtube "></i></a>
+						</div> 	
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+	</section>		
+	
+	
+
+		<footer class="text-center text-white bg-dark">
+			<div class="col-12">
 		 		<small>Copyright &copy; 2020 - Dicky Swardi. All Rights Reserved.</small>
+		 	</div>
+		 		<a href="https://www.freepik.com/vectors/christmas">all Picture vector created by freepik - www.freepik.com</a>
 		</footer>
 	
+	<!--Modal Section-->
+	<!---Modal 1-->
+	<div class="modal fade" id="portfolio1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-xl">
+	    <div class="modal-content">
+	      <div class="modal-header text-center">
+	        <h5 class="modal-title display-4 ">Accoustic Guitar</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body ">
+	        	<div class="modal-body ">
+                    <div class="container">
+                    	<div class="row justify-content-left">
+                            <div class="col-lg-6">
+                            	<img class="img-fluid rounded mb-5" src="Assets/images/card1.png" />
+                            </div>
+                            <div class="col-lg-6">	
+                            	<p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            </div>
+                        </div>    	
+                    </div>
+                </div>    
+	      </div>
+	      <div class="modal-footer justify-content-center">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close Window</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!---Modal 2-->
+	<div class="modal fade" id="portfolio2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-xl">
+	    <div class="modal-content">
+	      <div class="modal-header text-center">
+	        <h5 class="modal-title display-4 ">Electric Guitar</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body ">
+	        	<div class="modal-body ">
+                    <div class="container">
+                    	<div class="row justify-content-left">
+                            <div class="col-lg-6">
+                            	<img class="img-fluid rounded mb-5" src="Assets/images/card2.png" />
+                            </div>
+                            <div class="col-lg-6">	
+                            	<p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            </div>
+                        </div>    	
+                    </div>
+                </div>    
+	      </div>
+	      <div class="modal-footer justify-content-center">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close Window</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!---Modal 3-->
+	<div class="modal fade" id="portfolio3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-xl">
+	    <div class="modal-content">
+	      <div class="modal-header text-center">
+	        <h5 class="modal-title display-4 ">Electric Bass</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body ">
+	        	<div class="modal-body ">
+                    <div class="container">
+                    	<div class="row justify-content-left">
+                            <div class="col-lg-6">
+                            	<img class="img-fluid rounded mb-5" src="Assets/images/card3.png" />
+                            </div>
+                            <div class="col-lg-6">	
+                            	<p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            </div>
+                        </div>    	
+                    </div>
+                </div>    
+	      </div>
+	      <div class="modal-footer justify-content-center">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close Window</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!---Modal 4-->
+	<div class="modal fade" id="portfolio4" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-xl">
+	    <div class="modal-content">
+	      <div class="modal-header text-center">
+	        <h5 class="modal-title display-4 ">Classic Guitar</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body ">
+	        	<div class="modal-body ">
+                    <div class="container">
+                    	<div class="row justify-content-left">
+                            <div class="col-lg-6">
+                            	<img class="img-fluid rounded mb-5" src="Assets/images/card4.png" />
+                            </div>
+                            <div class="col-lg-6">	
+                            	<p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            </div>
+                        </div>    	
+                    </div>
+                </div>    
+	      </div>
+	      <div class="modal-footer justify-content-center">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close Window</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
 	</body>
 </html>
