@@ -78,6 +78,16 @@ footer {
 	border-radius: 3px;
 }
 
+.bg-text {
+	color:white;
+
+}
+
+.bg-text:hover {
+	text-decoration: none;
+	color :#d5d5d5;
+}
+
 
 @media(max-width: 922px){
 
@@ -105,7 +115,7 @@ footer {
 }
 	
 .sosial {
-	margin-left: 80px;
+	margin-left: 70px;
 }
 
 }
